@@ -18,11 +18,11 @@ main()
 			state = OUT;
 			printf("\n");
 		} 
-		if (state == OUT)
+		else if (state == OUT)
 		{
 			state = IN;
 		}
-		if (character != ' ' && character != '\t' && character != '\n' && state == IN)
+		else if (character != ' ' && character != '\t' && character != '\n' && state == IN)
 		{
 			putchar('|');
 		}
