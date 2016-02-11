@@ -9,6 +9,8 @@
 #define REG_FORMAT_TITLE_COLUMNS "%s\t%s\n"
 #define REG_FORMAT_TEMPERATURE_COLUMNS "%9.0f\t%7.1f\n"
 
+/* Конвертер температуры по Фаренгейту от 0 до 300 градусов с шагом 20 в Цельсий*/
+
 main()
 {
    float farenheit, celsium;

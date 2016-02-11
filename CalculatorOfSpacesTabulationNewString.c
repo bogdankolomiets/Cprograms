@@ -1,7 +1,10 @@
 #include <stdio.h>
+
 #define TABULATION '\t'
 #define LINE '\n'
 #define SPACE ' '
+
+/*Какулятор количества табуляций, строк и пробелов в веденном тексте*/
 
 main()
 {
